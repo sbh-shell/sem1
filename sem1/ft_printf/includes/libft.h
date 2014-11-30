@@ -6,7 +6,7 @@
 /*   By: sbenning <sbenning@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/10/25 17:59:34 by sbenning          #+#    #+#             */
-/*   Updated: 2014/11/22 17:31:56 by sbenning         ###   ########.fr       */
+/*   Updated: 2014/11/27 18:44:46 by sbenning         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ void					ft_puterrendl(char const *str);
 void					ft_puterrstr(char const *str);
 void					ft_puterrchar(char c);
 void					ft_puterrnbr(int nbr);
+int						ft_natoi(const char *str, size_t n);
 
 void					*ft_memset(void *b, int c, size_t len);
 void					ft_bzero(void *s, size_t n);
